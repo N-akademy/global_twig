@@ -1,6 +1,10 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-    <h1>Hello {{ name }} !</h1>
+
+    <h1>Thème le {{ global }} !</h1>
+    <h2>Description</h2>
+    <p>{{ description }}</p>
+
     {% include 'footer.html.twig' %}
 {% endblock %}
